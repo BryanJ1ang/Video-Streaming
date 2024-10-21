@@ -7,6 +7,5 @@ cmake_install.cmake
 # Ignore vcpkg installation
 vcpkg/
 
-
 # Ignore Visual Studio Code settings (optional, if you don't want to share workspace settings)
 .vscode/

@@ -3,7 +3,8 @@ project(VideoStreaming)  #
 
 set(CMAKE_CXX_STANDARD 17)  
 # Specify the vcpkg toolchain file
-set(CMAKE_TOOLCHAIN_FILE "D:/vsC/VideoStreaming/vcpkg/scripts/buildsystems/vcpkg.cmake" CACHE STRING "Vcpkg toolchain file")
+set(CMAKE_TOOLCHAIN_FILE "{CMAKE_SOURCE_DIR }/vcpkg/scripts/buildsystems/vcpkg.cmake" CACHE STRING "Vcpkg toolchain file")
+
 
 # Add the source files
 add_executable(MyExecutable main.cpp)  
