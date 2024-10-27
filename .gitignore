@@ -1,5 +1,5 @@
 # Ignore CMake build directories
-/build/
+/backend/build/
 cmake/
 CMakeCache.txt
 cmake_install.cmake
